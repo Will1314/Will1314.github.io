@@ -8,5 +8,7 @@
 <body>
     这是一个有趣的博客
     <h1 href="https://www.baidu.com">百度一下</h1>
+    <a href="http://www.winnode.com/">CSS</a>
+    <a href="//blog/index.html">blog</a>
 </body>
 </html>
