@@ -151,7 +151,7 @@
 }
 /*
  * 网站字体及icon
- * $CDN = hexo-config("CDN") || '//7xs305.com1.z0.glb.clouddn.com/'
+ * $CDN = Will'blog-config("CDN") || '//7xs305.com1.z0.glb.clouddn.com/'
  */
 @font-face {
   font-family: "HomizioNova";

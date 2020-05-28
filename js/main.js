@@ -144,12 +144,12 @@ function deepCopy(c, p) {
 }
 /**
  * 网站js
- * @author Jelon
+ * @author Will
  * @type {{init, toggleMenu}}
  */
-var JELON = window.JELON || {};
-JELON = deepCopy(JELON, {
-  name: 'JELON',
+var Will = window.Will || {};
+Will = deepCopy(Will, {
+  name: 'Will',
   version: '0.0.2',
   init: function() {
     this.toggleMenu();
@@ -218,7 +218,7 @@ JELON = deepCopy(JELON, {
   },
   startSearch: function () {
     if (document.getElementById('searchKeyword').value) {
-      document.getElementById('searchKeywordHidden').value = 'site:jelon.info ' + document.getElementById('searchKeyword').value;
+      document.getElementById('searchKeywordHidden').value = 'site:Will.info ' + document.getElementById('searchKeyword').value;
       document.getElementById('searchForm').submit();
     }
   }
@@ -227,4 +227,4 @@ JELON = deepCopy(JELON, {
 /**
  * 程序入口
  */
-JELON.init();
+Will.init();
